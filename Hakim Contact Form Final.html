@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <title>Contact Form</title>
+  <body>
+    <form>
+    <!-- Name Input -->
+      <label>First Name:</label>&nbsp;
+        <input required type="text" name="firstName" id="firstName" maxlength="30">
+    <br>
+      <label>Last Name:</label>&nbsp;
+        <input required type="text" id="lastname" name="user_name" maxlength="30">
+    <br><br>
+    
+    <!-- Phone number button -->
+      <label>Phone Number:</label>
+        <input required type="text" id="phone_number" name="user_phone_number" pattern="[0-9]{10}" title="10 digit Phone Number" maxlength="10"><br><br>
+          <input type="radio" name="phone_number" value="Landline">Landline</label></input>
+          <input type="radio" name="phone_number" value="Mobile">Mobile</label></input><br>
+    <br><br>
+
+    <!-- Email Input  -->
+      <label>Email:</label>
+        <input required type="text" id="email" name="user_email" maxlength="50"><br><br>
+    <br>
+
+    <!-- Dropdown  -->
+      <label>How did you hear about us?</label>
+        <select required id="origin" Name="user_origin">
+            <option value="search_engine">Search Engine</option>
+            <option value="social_media">Social Media</option>
+            <option value="Recruiter">Recruiter</option>
+        </select>
+    <br><br>
+
+    <!-- Checkbox for skillset -->
+      <label>Which option best describes your skillset?</label><br><br>
+        <input type="checkbox" name="skillset" value="frontend_developer">Front-End Developer</label></input><br>
+        <input type="checkbox" name="skillset" value="php_developer">PHP Developer</label></input><br>
+        <input type="checkbox" name="skillset" value="python_developer">Python Developer</label></input><br>
+        <input type="checkbox" name="skillset" value="rails_developer">Rails Developer</label></input><br>
+        <input type="checkbox" name="skillset" value="web_designer">Web Designer</label></input><br>
+        <input type="checkbox" name="skillset" value="wordpress_developer">Wordpress Developer</label></input><br>
+        <input type="checkbox" name="skillset" value="android_developer">Android Developer</label></input><br>
+        <input type="checkbox" name="skillset" value="ios_developer">IOS Developer</label></input><br>
+        <input type="checkbox" name="skillset" value="mobile_designer">Mobile Designer</label></input><br>
+    <br><br>
+
+    <!-- Message text area -->
+      <label>Comments (250 words)</label><br>
+        <textarea id="comment" name="user_comments" cols="40" rows="4" maxlength="250"></textarea>
+    <br><br>
+
+    <!-- Submit Button -->
+      <button type="submit">Submit</button>
+    </form> 
+  </body>
+</html>
