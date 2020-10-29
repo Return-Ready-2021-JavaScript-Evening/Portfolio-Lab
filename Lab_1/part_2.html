@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <h1>Contact Me:</h1>
+        
+        <input type="text" id="firstName" name="firstName" maxlength="30" placeholder="First Name"><br><br>
+        
+        <input type="text" id="lastName" name="lastName" maxlength="30" placeholder="Last Name"><br><br>
+        
+        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Contact Phone Number"><br><br>
+        
+        <label>Phone Number Type:</label><br>
+        <input type="radio" name="phoneType" value="Landline"><label>Landline:</label>
+        <input type="radio" name="phoneType" value="Mobile"><label>Mobile:</label><br><br>
+        
+        <input type="text" id="email" name="email" maxlength="50" placeholder="Contact Email"><br><br>
+
+        <label>How did you hear about us?</label><br>
+        <select name="hearAbout">
+            <option value="searchEngine">Search Engine</option>
+            <option value="socialMedia">Social Media</option>
+            <option value="recruiter">Recruiter</option>
+        </select><br><br>
+
+        <label>Interest for Contacting:</label><br>
+        <input type="checkbox" name="skill1" value="coding"><label>Experience with programming.</label><br>
+        <input type="checkbox" name="skill2" value="tools"><label></label>Experience with tools.<br>
+        <input type="checkbox" name="skill3" value="operatingSystems"><label>Experience with operating systems.</label><br><br>
+
+        <textarea name="message" cols="50" rows="4" placeholder="Enter comments here."></textarea><br>
+        <a href="part_1.html">Return to resume.</a>
+    </body>
+</html>
