@@ -8,10 +8,46 @@
         <h1>Resume Form</h1>
         <form>
             <label for="fname"> First Name</label> 
-            <input type="text" id="fname" name="fname"> <br> <br>
+            <input type="text" id="fname" name="fname" maxlength="30"> <br> <br>
             <!-- First and Last name forms -->
             <label for="lname" id="lname" name="lname"> Last Name</label>
-            <input type="text" id="lname" name="lname"> <br> <br>
+            <input type="text" id="lname" name="lname" maxlength="30"> <br> <br>
+
+            <label for="contact" > Contact Phone Number </label>
+            <input type="text" id="contactPhoneNumber" name="contactPhoneNumber"> <br>
+
+            <label> Phone Number Type</label>
+            <input type="radio" name="PhoneNumbertype" value="Landline"> <label>Landline</label> 
+            <input type="radio" name="PhoneNumbertype" value="Mobile">   <label>Mobile</label> <br> <br>
+
+            <label for="Contactemail">Contact Email</label>
+            <input type="text" id="contactEmail" name="user_email" maxlength="50"> <br> <br>
+
+            <label for="Howdidyouhearaboutus">How did you hear about us </label>
+            <select name="Howdidyouhearaboutus" id="Howdidyouhearaboutus">  
+                <option value="Searchengine"> Search Engine</option>
+                <option value="Socialmedia"> Social Media</option>
+                <option value="Recuiter"> Recruiter</option>  
+            </select>
+             
+
+               <h2>Interest For Contacting</h2>
+
+               <label for="Skills1" > HazMat </label> 
+                <input type="checkbox" id="Skills1" name="Skills1" value="HazMat">
+                <label for="skills2" > Doubles/Triples </label>
+                <input type="checkbox" id="skills2" name="skills2" value="Doubles/Triples">
+                <label for="skills3" > Tanker </label>
+                <input type="checkbox" id="skills3" names="skills3" value="tankers">
+                <label for="skills4">School Bus/Passenger</label>
+                <input type="checkbox" id="skills4" names="skills4" value="schoolbus/Passenger"> <br> <br>
+
+                <label for="Message"> Message</label>
+                <textarea name="" id="" cols="30" rows="10" maxlength="250"></textarea>
+
+
+                
+
 
 
 
