@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <fieldset>
+        <form>
+            <label for="fname"> First Name</label>
+            <input type="text" id="fname" name="fname" maxlength="30"><br>
+
+            <label for="lastname">Last name:</label>
+            <input type="text" id="lname" name="lname" maxlength="30"><br>
+
+            <label for="contactphonenumber"> Contact Phone Number</label>
+            <input type="text" id="contactphonenumber" name="contactphonenumber"><br>
+
+            <label> Phone Number Type</label>
+            <input type="radio" name="Phonenumbertype" value="landline" maxlength="10"><label>Landline</label>
+
+            <input type="radio" name="Phonenumbertype" value="mobile" maxlength="10"><label>Mobile</label> <br>
+
+            <label for="contactemail"> Contact Email</label>
+            <input type="text" id="contactemail" name="contactemail" maxlength="50"> <br>
+
+
+
+            <section>
+                <label for="">How did you hear about us? </label>
+                <select id="howdidyouhearaboutus" name="howdidyouhearaboutus">
+                    <option value="search_engine"> Search Engine</option>
+                    <option value="social_media"> Social Media</option>
+                    <option value="recruiter">Recruiter</option>
+                </select> <br>
+            </section>
+
+            <section>
+                <label>Interest for contacting</label><br>
+                <input type="checkbox" name="skillset" value="Rails">
+                <label for="rails">Rails</label><br>
+
+                <input type="checkbox" name="skillset" value="Wordpress">
+                <label for="Wordpress">Word Press</label><br>
+
+                <input type="checkbox" name="skillset" value="python">
+                <label for="python">Python</label><br>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" maxlength="250"> </textarea><br>
+
+                <button form="submit">Submit</button>
+            </section>
+
+
+
+
+
+
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
