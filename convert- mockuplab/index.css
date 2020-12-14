@@ -1,0 +1,35 @@
+
+body{
+    margin-top: ;
+}
+
+
+.card-deck{
+    margin: 35px;
+
+}
+
+.main-footer{
+    background-color: darkslategray;
+    color: white;
+    height: 350px;
+    
+    
+   
+}
+
+.column{
+  padding-top: 45px;
+  align-content: center;
+
+
+}
+
+.dotted {
+    border-top: 3px dotted #bbb;
+
+    
+}
+
+.container{
+   margin-top: 35px;
